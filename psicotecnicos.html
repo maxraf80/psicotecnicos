@@ -21,80 +21,88 @@
 
   <!-- Datos estructurados JSON-LD -->
   <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalClinic",
+  "name": "Emedical Madrid",
+  "image": "https://tudominio.com/resources/logo-emedical.png",
+  "url": "https://tudominio.com/",
+  "telephone": "+34 613 000 030",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Calle de la Mezquita 5",
+    "addressLocality": "Madrid",
+    "addressRegion": "Madrid",
+    "postalCode": "28041",
+    "addressCountry": "ES"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 40.367862,
+    "longitude": -3.696974
+  },
+  "areaServed": ["Madrid", "Usera", "San Fermín", "Carabanchel", "Aluche"],
+  "openingHoursSpecification": [
     {
-      "@context": "https://schema.org",
-      "@type": "MedicalBusiness",
-      "name": "Emedical Madrid",
-      "image": [
-        "https://tudominio.com/resources/logo-emedical.png"
-      ],
-      "url": "https://tudominio.com/",
-      "telephone": "+34 613 000 030",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Calle de la Mezquita 5",
-        "addressLocality": "Madrid",
-        "addressRegion": "Madrid",
-        "postalCode": "28041",
-        "addressCountry": "ES"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": 40.373,
-        "longitude": -3.700
-      },
-      "areaServed": [
-        "Madrid",
-        "Usera",
-        "San Fermín"
-      ],
-      "openingHoursSpecification": [
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": [
-            "Monday",
-            "Tuesday",
-            "Wednesday",
-            "Thursday",
-            "Friday"
-          ],
-          "opens": "10:00",
-          "closes": "13:30"
-        },
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": [
-            "Monday",
-            "Tuesday",
-            "Wednesday",
-            "Thursday",
-            "Friday"
-          ],
-          "opens": "16:00",
-          "closes": "20:30"
-        }
-      ],
-      "makesOffer": [
-        {
-          "@type": "Offer",
-          "itemOffered": { "@type": "Service", "name": "Certificado médico para vigilante de seguridad" }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": { "@type": "Service", "name": "Certificado médico para licencia de armas" }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": { "@type": "Service", "name": "Certificado médico para perros potencialmente peligrosos (PPP)" }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": { "@type": "Service", "name": "Certificado médico para patrón de embarcación" }
-        }
-      ],
-      "accreditation": "Centro autorizado por el Ministerio del Interior y la DGT"
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+      "opens": "10:00",
+      "closes": "13:30"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+      "opens": "16:00",
+      "closes": "20:30"
     }
-  </script>
+  ],
+  "makesOffer": [
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Psicotécnico para vigilantes de seguridad",
+        "description": "Reconocimiento médico y psicológico obligatorio para obtener o renovar la habilitación de vigilante de seguridad privada en Madrid."
+      }
+    },
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Certificado médico para permiso de armas",
+        "description": "Pruebas psicotécnicas y médicas oficiales para la obtención o renovación de la licencia de armas (A, B, C, D, E, F)."
+      }
+    },
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Certificado médico patrón de embarcación",
+        "description": "Reconocimiento médico oficial para patrón de yate, embarcación de recreo y titulaciones náuticas."
+      }
+    },
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Psicotécnico para perros potencialmente peligrosos (PPP)",
+        "description": "Evaluación psicológica y médica para la tenencia de perros peligrosos conforme a la legislación vigente."
+      }
+    }
+  ],
+  "accreditation": "Centro médico autorizado por la DGT y Sanidad de Madrid",
+  "potentialAction": {
+    "@type": "ContactAction",
+    "target": "https://wa.me/34613000030",
+    "name": "Solicitar cita para psicotécnico"
+  },
+  "sameAs": [
+    "https://www.instagram.com/emedicalmadrid",
+    "https://www.facebook.com/emedicalmadrid",
+    "https://maps.google.com/?q=Emedical+Madrid"
+  ]
+}
+</script>
 </head>
 
 <body>

@@ -50,6 +50,13 @@ header {
   margin-left: 0;
   margin-right: 10px;
   margin-top: 20px;
+  background-color: rgba(255, 255, 255, 0.25); /* blanco translúcido */
+  backdrop-filter: blur(6px); /* efecto difuminado elegante */
+  border-radius: 12px; /* bordes redondeados */
+  padding: 10px; /* espacio interior para que respire el logo */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .col-logo img {

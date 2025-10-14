@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="Emedical Madrid" content="Centro de psicotécnicos para renovar el carnet de conducir y armas en Madrid">
+    <meta name="keywords"
+        content="psicotécnicos Madrid, renovación carnet conducir, renovación licencia armas, centro reconocimiento de conducores">
+    <meta name="author" content="mundano80">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="row">
+        <div class="col-logo">
+            <a href="index.html"> <img src="resources/logo-emedical.png"
+                    alt="Logo Emedical Centro de reconocimiento de conductores">
+            </a>
+
+        </div>
+        <div class="col-title">
+            <h1>Emedical Madrid</h1>
+            <p>Centro de psicotécnicos para renovar el carnet de conducir y armas en Madrid</p>
+
+            <!-- MENU -->
+            <nav class="menu">
+                <ul>
+                    <li><a href="carnet.html">Carnet de conducir</a></li>
+                    <li><a href="psicotecnicos.html">Psicotécnicos y certificados</a></li>
+                    <li><a href="citas.html" style="font-weight:bold; text-decoration: underline;">Pide una cita</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- BOTÓN DE LLAMADA -->
+            <a href="tel:613000030" class="boton-llamar">📞 Llámanos al 613 0000 30</a>
+        </div>
+
+        </div>
+    </header>
+
+    <section class="fila">
+        <div class="col-2">
+            <form class="formulario" action="https://formsubmit.co/hello@capitalistchic.com" method="POST">
+                <label>
+                    Nombre *:
+                    <input type="text" name="name" required>
+                </label>
+
+                <label>
+                    Teléfono *:
+                    <input type="text" name="phone" required>
+                </label>
+
+                <label>
+                    Email *:
+                    <input type="email" name="email" required>
+                </label>
+
+                <label>
+                    Información Adicional:
+                    <textarea name="info" rows="4"></textarea>
+                </label>
+
+                <button type="submit">Enviar</button>
+
+                <p class="aviso">
+                    Al enviar este formulario aceptas los términos de
+                    <a href="https://tusitio.com/privacidad.html" target="_blank"><u>Privacidad</u></a>.
+                </p>
+
+                <input type="hidden" name="_next" value="https://maxraf80.github.io/san_fermin/thanks.html">
+                <input type="hidden" name="_captcha" value="false">
+            </form>
+        </div>
+    </section>

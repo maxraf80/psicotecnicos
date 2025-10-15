@@ -25,7 +25,7 @@
   <meta name="robots" content="index, follow">
 
   <!-- 🔹 Canonical correcto -->
-  <link rel="canonical" href="https://emedicalmadrid.com/psicotecnicos.html">
+  <link rel="canonical" href="https://emedicalmadrid.com/thanks.html">
   
   <!-- 🔹 Favicon -->
 
@@ -148,47 +148,17 @@
     <section class="fila">
         <div class="col-2">
             <section>
-                <h2>Psicotécnicos Profesionales en Madrid</h2>
-                <p>En <strong>Emedical Madrid</strong>, situado en <strong>Calle Mezquita 5, Madrid capital</strong>,
-                    ofrecemos <strong>psicotécnicos oficiales</strong> adaptados a las necesidades de profesionales de
-                    seguridad, marítimos y titulaciones específicas.</p>
-
-                <!-- IMAGEN ANTES DE SERVICIOS -->
-                <img src="resources/ventana.jpeg" alt="Fachada del Centro Médico Emedical Madrid en Calle de la Mezquita 5">
-
-                    style="width:100%; margin: 20px 0; border-radius:8px;">
-
-                <h3>Psicotécnicos para Vigilantes de Seguridad, Armas, Perros Peligrosos y Patrón de Embarcación</h3>
-                <p>Nuestro centro especializado realiza pruebas psicotécnicas diseñadas para cumplir con los
-                    requisitos oficiales y garantizar tu éxito en la obtención o renovación de licencias y permisos
-                    profesionales.</p>
-
-                <h3>¿Por qué elegir nuestros psicotécnicos?</h3>
-                <ul>
-                    <li><strong>Vigilante de Seguridad:</strong> Pruebas de atención, memoria, coordinación y rapidez de
-                        reacción, alineadas con los estándares del Ministerio del Interior.</li>
-                    <li><strong>Manipulación y Custodia de Perros Potencialmente Peligrosos:</strong> Evaluación de
-                        responsabilidad, autocontrol y capacidad para trabajar bajo presión.</li>
-                    <li><strong>Armas:</strong> Test de estabilidad psicológica, concentración y control emocional,
-                        fundamentales para licencias y renovaciones.</li>
-                    <li><strong>Patrón de Embarcación:</strong> Evaluación de toma de decisiones, orientación espacial y
-                        resistencia al estrés en entornos marítimos.</li>
+                <h2><strong>Formulario recibido con éxito</strong></h2>
+                <p>Gracias por confiar en <strong>Emedical Madrid</strong> para tus necesidades de
+                    <strong>psicotécnicos</strong> y certificados médicos oficiales. Nos complace informarte que tu
+                    solicitud ha sido recibida con éxito.</p>
                 </ul>
-
-                <h3>Nuestro compromiso</h3>
-                <ul>
-                    <li><strong>Pruebas actualizadas y oficiales:</strong> Siempre alineadas con las normativas vigentes.</li>
-                    <li><strong>Atención personalizada:</strong> Profesionales expertos te guiarán en todo el proceso.</li>
-                    <li><strong>Abrimos mañana y tarde, posibilidad de pago con tarjeta:</strong> Adaptamos los psicotécnicos a
-                        tus necesidades.</li>
-                </ul>
-
-
                 
-
-                <p>Solicita tu <a href="citas.html" style="font-weight:bold; text-decoration: underline;">cita
-                        previa</a> para atención rápida y sin esperas. Nuestro equipo te acompañará para que tu
-                    <strong>certificado médico psicotécnico</strong> cumpla con todos los requisitos oficiales.</p>
+                <p>Nos pondremos en contacto contigo a la mayor brevedad posible para confirmar los detalles de tu cita
+                    o para proporcionarte cualquier información adicional que puedas necesitar.</p>
+                
+                    <p>Si tienes alguna pregunta o necesitas asistencia inmediata, no dudes en llamarnos al <a
+                        href="tel:+34613000030" aria-label="Llamar a Emedical Madrid">+34 613 000 030</a>.</p>
 
             </section>
         </div>

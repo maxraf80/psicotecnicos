@@ -2,6 +2,13 @@ html {
   scroll-behavior: smooth;
 }
 
+img.responsive {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 15px 0;
+}
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
